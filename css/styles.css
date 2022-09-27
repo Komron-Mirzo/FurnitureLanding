@@ -1,0 +1,176 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+  margin: 40px 0 0 0;
+ 
+ 
+}
+
+header{
+    margin-top: 40px;
+    background-color: transparent;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    justify-content: space-between;
+    overflow: hidden;
+    align-items: center;
+}
+h3{
+    font-size: 28px;
+    color: #fff;
+    font-family: 'gilroy-medium';
+} 
+header nav ul li {
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'gilroy-light';
+    color: #fff;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-weight: 100;
+}
+
+.fa {
+    color: #fff;
+    display: block;
+    font-size: 24px;
+}
+
+.home {
+    margin-top: -80px;
+    padding-top: 145px;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 1084px;
+    background: url(../images/Rectangle1441.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    
+}
+
+.title {
+    margin: auto 14%;
+    color: #fff;
+    font-size: 78px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'gilroy-bold';
+  
+}
+
+.subtitle {
+    margin: 1% 14%;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'gilroy-thin';
+    line-height: 35px;
+    opacity: 0.8;
+    
+}
+
+
+.search-bar{
+    padding-top: 30px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.search {
+    padding: 15px 25px;
+    height: 56px;
+    width: 344px;
+    border-radius: 42px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.8);
+    backdrop-filter: blur(3px);
+
+}
+
+
+input::placeholder {
+    font-size: 18px;
+    color: rgba(255,255,255,0.8);
+    font-family: 'gilroy-thin';
+}
+
+.circle {
+    display: table;
+    border-radius: 50%;
+    background-color: orange;
+    width: 40px;
+    height: 40px;
+    margin-left: -50px;
+    z-index: 1;
+    
+}
+
+.fa {
+    display: table-cell;
+    font-size: 22px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+.column{
+    float: left;
+    width: 21%;
+    align-items: center;
+    font-family:'gilroy-medium';
+    padding: 0 16px 0 0;
+ 
+}
+
+.row{
+    display: table;
+    width: 100%;
+    margin: auto 5%;
+}
+
+
+.column1{
+    display: table;
+    float:left;
+    width: 27%;
+}
+
+.why-title{
+    display: table-cell;
+    font-size: 42px;
+    font-family: 'gilroy-bold';
+    color: #1e1e1e;
+    vertical-align: middle;
+}
+
+.column-title{
+    font-family: 'gilroy-bold';
+    font-size: 24px;
+    color: #1e1e1e;
+    opacity: 0.9;
+}
+
+.column-sub{
+    font-size: 15px;
+    color: #1e1e1e;
+    opacity: 0.8;
+    line-height: 185%;
+}
+
+.more-info{
+    font-size: 14px;
+    color: #E58411;
+
+}
