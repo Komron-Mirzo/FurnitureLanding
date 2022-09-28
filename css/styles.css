@@ -1,16 +1,15 @@
-
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
 
-  margin: 40px 0 0 0;
- 
- 
+    margin: 40px 0 0 0;
+
+
 }
 
-header{
+header {
     margin-top: 40px;
     background-color: transparent;
     display: flex;
@@ -21,11 +20,13 @@ header{
     overflow: hidden;
     align-items: center;
 }
-h3{
+
+h3 {
     font-size: 28px;
     color: #fff;
     font-family: 'gilroy-medium';
-} 
+}
+
 header nav ul li {
     display: inline-block;
     font-size: 18px;
@@ -53,7 +54,7 @@ header nav ul li {
     background-size: contain;
     background-repeat: no-repeat;
     align-items: center;
-    
+
 }
 
 .title {
@@ -63,7 +64,7 @@ header nav ul li {
     text-align: center;
     text-transform: capitalize;
     font-family: 'gilroy-bold';
-  
+
 }
 
 .subtitle {
@@ -74,11 +75,11 @@ header nav ul li {
     font-family: 'gilroy-thin';
     line-height: 35px;
     opacity: 0.8;
-    
+
 }
 
 
-.search-bar{
+.search-bar {
     padding-top: 30px;
     display: flex;
     margin: auto;
@@ -92,8 +93,8 @@ header nav ul li {
     height: 56px;
     width: 344px;
     border-radius: 42px;
-    background-color: rgba(255,255,255,0.2);
-    border: 1px solid rgba(255,255,255,0.8);
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(3px);
 
 }
@@ -101,7 +102,7 @@ header nav ul li {
 
 input::placeholder {
     font-size: 18px;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
     font-family: 'gilroy-thin';
 }
 
@@ -113,7 +114,7 @@ input::placeholder {
     height: 40px;
     margin-left: -50px;
     z-index: 1;
-    
+
 }
 
 .fa {
@@ -125,29 +126,30 @@ input::placeholder {
 
 
 
-.column{
+.column {
     float: left;
-    width: 21%;
+    width: 20%;
     align-items: center;
-    font-family:'gilroy-medium';
+    font-family: 'gilroy-medium';
     padding: 0 16px 0 0;
- 
+
 }
 
-.row{
+.row {
     display: table;
     width: 100%;
-    margin: auto 5%;
+
 }
 
 
-.column1{
+.column1 {
     display: table;
-    float:left;
-    width: 27%;
+    float: left;
+    width: 23%;
+    margin-left: 5%;
 }
 
-.why-title{
+.why-title {
     display: table-cell;
     font-size: 42px;
     font-family: 'gilroy-bold';
@@ -155,22 +157,138 @@ input::placeholder {
     vertical-align: middle;
 }
 
-.column-title{
+.column-title {
     font-family: 'gilroy-bold';
     font-size: 24px;
     color: #1e1e1e;
     opacity: 0.9;
 }
 
-.column-sub{
+.column-sub {
     font-size: 15px;
     color: #1e1e1e;
     opacity: 0.8;
     line-height: 185%;
 }
 
-.more-info{
+.more-info {
     font-size: 14px;
     color: #E58411;
 
+}
+
+.product-slider {
+    margin-top: 90px;
+    height: 906px;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #F7F7F7;
+
+}
+
+.glider-contain{
+    margin: auto 5%;
+    
+}
+
+.product-slider-title {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: 42px;
+    text-align: center;
+    color: #1e1e1e;
+    font-family: 'gilroy-bold';
+}
+
+.product-card {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    margin: auto 1%;
+    position: relative;
+   
+
+}
+
+.product-img {
+    
+    padding-right: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+   
+ 
+   
+}
+
+.product-card-bottom {
+    background-color: #fff;
+    padding: 25px 25px 25px 5px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.category-title {
+    padding-left: 20px;
+    color: #8D8D8D;
+    font-size: 16px;
+    font-family: 'gilroy-regular';
+    align-items: left;
+    margin-bottom: 8px;
+}
+
+.product-title {
+    font-size: 20px;
+    font-family: 'gilroy-bold';
+    align-items: left;
+    padding-left: 20px;
+    color: #0D1B39;
+    margin-bottom: 8px;
+}
+
+.star-rating {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.star-rating .fa {
+    padding-right: 7px;
+    color: #F6B76F;
+    font-size: 18px;
+}
+
+.product-price {
+    height: 50px;
+    padding-left: 20px;
+    font-size: 21px;
+    font-family: 'gilroy-bold';
+    color: #0D1B39;
+}
+
+.price-text {
+    margin-top: 20px;
+}
+.plus-button {
+    float: right;
+}
+
+.circle-chevron{
+    display: table;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 0;
+  
+}
+
+.circle-chevron .fa{
+    display: table-cell;
+    vertical-align: middle;
+    color: #1e1e1e;
+    text-align: center;
+    font-size: 20px;
+    
+    
 }
