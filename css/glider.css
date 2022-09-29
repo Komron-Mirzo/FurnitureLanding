@@ -87,12 +87,14 @@
   opacity: 0;
 }
 .glider-dots {
+  display: none;
   user-select: none;
-  display: flex;
+ 
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
   padding: 0;
+  padding-top: 15px;
 }
 .glider-dot {
   border: 0;

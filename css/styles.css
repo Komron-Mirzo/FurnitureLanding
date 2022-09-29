@@ -155,6 +155,7 @@ input::placeholder {
     font-family: 'gilroy-bold';
     color: #1e1e1e;
     vertical-align: middle;
+    text-transform: capitalize;
 }
 
 .column-title {
@@ -169,11 +170,13 @@ input::placeholder {
     color: #1e1e1e;
     opacity: 0.8;
     line-height: 185%;
+    font-family:'gilroy-regular';
 }
 
 .more-info {
     font-size: 14px;
     color: #E58411;
+    font-family: 'gilroy-regular';
 
 }
 
@@ -212,13 +215,10 @@ input::placeholder {
 }
 
 .product-img {
-    
     padding-right: 20px;
     background-color: rgba(255, 255, 255, 0.5);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-   
- 
    
 }
 
@@ -289,6 +289,111 @@ input::placeholder {
     color: #1e1e1e;
     text-align: center;
     font-size: 20px;
+}
+
+
+
+.view-all{
+    margin: 5% auto;
+    color:#E58411;
+    display: table;
+    font-size: 18px;
+    font-family:'gilroy-regular';
+}
+
+.view{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.view-all img{
+    padding-top: 5px;
+}
+
+.tabs{
+    margin: 0 auto 5% auto;
+   
+    width: 348px;
+    height: 57px;
+    background-color: #eeeeee;
+    border-radius: 44px;
+}
+
+.experience{
+    padding-top: 240px;
+    display: flex;
+    height: 900px;
     
-    
+}
+
+.exp-img{
+    width: 50%;
+}
+
+.exp-img-left img{
+    width: 629px;
+    margin-left: -30px;
+    height: 445px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 4;
+   
+}
+
+
+.back-grey1{
+    margin-top:-63px;
+    margin-left:-66px;
+    width: 493px;
+    height: 422px;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+.back-grey2{
+    width: 495px;
+    height: 301px;
+    margin-top: 72px;
+    margin-left: 168px;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 2;
+}
+
+.back-grey3{
+    width: 555px;
+    height: 423px;
+    margin-top: 52px;
+    margin-left: 20px;
+    background: url(../images/exp-img.jpg);
+    border-radius: 20px;
+    position: absolute;
+    z-index: 3;
+    filter: blur(25px);
+    opacity: 0.5;
+}
+
+.exp-text{
+    width: 50%;
+    margin-left: 10%;
+}
+  
+.experiences{
+    letter-spacing: 3px;
+    font-size: 18px;
+    color:#E58411;
+    text-transform: uppercase;
+    font-family:'gilroy-medium';
+}
+
+.column-sub2{
+    font-size: 18px;
+    color: #1e1e1e;
+    opacity: 0.8;
+    line-height: 185%;
+    font-family:'gilroy-regular';
+    padding-right: 15%;
 }
