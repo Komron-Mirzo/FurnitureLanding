@@ -170,7 +170,7 @@ input::placeholder {
     color: #1e1e1e;
     opacity: 0.8;
     line-height: 185%;
-    font-family:'gilroy-regular';
+    font-family: 'gilroy-regular';
 }
 
 .more-info {
@@ -190,9 +190,9 @@ input::placeholder {
 
 }
 
-.glider-contain{
+.glider-contain {
     margin: auto 5%;
-    
+
 }
 
 .product-slider-title {
@@ -210,7 +210,7 @@ input::placeholder {
     flex-direction: column;
     margin: auto 1%;
     position: relative;
-   
+
 
 }
 
@@ -219,7 +219,7 @@ input::placeholder {
     background-color: rgba(255, 255, 255, 0.5);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-   
+
 }
 
 .product-card-bottom {
@@ -269,21 +269,22 @@ input::placeholder {
 .price-text {
     margin-top: 20px;
 }
+
 .plus-button {
     float: right;
 }
 
-.circle-chevron{
+.circle-chevron {
     display: table;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: white;
     padding: 0;
-  
+
 }
 
-.circle-chevron .fa{
+.circle-chevron .fa {
     display: table-cell;
     vertical-align: middle;
     color: #1e1e1e;
@@ -293,57 +294,57 @@ input::placeholder {
 
 
 
-.view-all{
+.view-all {
     margin: 5% auto;
-    color:#E58411;
+    color: #E58411;
     display: table;
     font-size: 18px;
-    font-family:'gilroy-regular';
+    font-family: 'gilroy-regular';
 }
 
-.view{
+.view {
     display: table-cell;
     vertical-align: middle;
 }
 
-.view-all img{
+.view-all img {
     padding-top: 5px;
 }
 
-.tabs{
+.tabs {
     margin: 0 auto 5% auto;
-   
+
     width: 348px;
     height: 57px;
     background-color: #eeeeee;
     border-radius: 44px;
 }
 
-.experience{
+.experience {
     padding-top: 240px;
     display: flex;
     height: 900px;
-    
+
 }
 
-.exp-img{
+.exp-img {
     width: 50%;
 }
 
-.exp-img-left img{
+.exp-img-left img {
     width: 629px;
     margin-left: -30px;
     height: 445px;
     border-radius: 20px;
     position: absolute;
     z-index: 4;
-   
+
 }
 
 
-.back-grey1{
-    margin-top:-63px;
-    margin-left:-66px;
+.back-grey1 {
+    margin-top: -63px;
+    margin-left: -66px;
     width: 493px;
     height: 422px;
     background-color: #f7f7f7;
@@ -352,7 +353,7 @@ input::placeholder {
     z-index: 1;
 }
 
-.back-grey2{
+.back-grey2 {
     width: 495px;
     height: 301px;
     margin-top: 72px;
@@ -363,7 +364,7 @@ input::placeholder {
     z-index: 2;
 }
 
-.back-grey3{
+.back-grey3 {
     width: 555px;
     height: 423px;
     margin-top: 52px;
@@ -376,24 +377,127 @@ input::placeholder {
     opacity: 0.5;
 }
 
-.exp-text{
+.exp-text {
     width: 50%;
     margin-left: 10%;
 }
-  
-.experiences{
+
+.experiences {
     letter-spacing: 3px;
     font-size: 18px;
-    color:#E58411;
+    color: #E58411;
     text-transform: uppercase;
-    font-family:'gilroy-medium';
+    font-family: 'gilroy-medium';
 }
 
-.column-sub2{
+.column-sub2 {
     font-size: 18px;
     color: #1e1e1e;
     opacity: 0.8;
     line-height: 185%;
-    font-family:'gilroy-regular';
+    font-family: 'gilroy-regular';
     padding-right: 15%;
+}
+
+.materials {
+
+    padding: 12% 0 8% 5%;
+
+    margin: 0 auto 14% auto;
+    display: flex;
+    right: 0;
+    height: 900px;
+    overflow: hidden;
+
+}
+
+.mat-text {
+    width: 45%;
+}
+
+.mat-img {
+    width: 55%;
+    position: relative;
+    float: right;
+}
+
+.mat-img-right img {
+    position: absolute;
+    width: 629px;
+    height: 445px;
+    border-radius: 20px;
+    right: -185px;
+    z-index: 3;
+
+
+}
+
+.mat-img-right-blur {
+    position: absolute;
+    width: 555px;
+    height: 423px;
+    filter: blur(25px);
+    border-radius: 49px;
+    z-index: 2;
+    opacity: 0.5;
+    right: -50px;
+    margin-top: 30px;
+
+}
+
+.back-grey4 {
+    top: -66px;
+    right: -220px;
+    position: absolute;
+    width: 495px;
+    height: 422px;
+    background-color: #F7F7F7;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.mat-img-left {
+
+}
+
+.up-img img {
+    width: 223px;
+    height: 229px;
+    border-radius: 14px;
+    top: -125px;
+    position: absolute;
+    z-index: 2;
+}
+
+.up-img-blur img{
+    z-index: 1;
+    width:176px;
+    height: 183px;
+    filter: blur(25px);
+    border-radius: 29px;
+    position: absolute;
+    left: 25px;
+    margin-top: 60px;
+    opacity: 0.5;
+}
+
+.down-img img {
+    top: 140px;
+    width: 223px;
+    height: 309px;
+    border-radius: 14px;
+    position: absolute;
+    z-index: 2;
+}
+
+.down-img-blur img{
+    left: 20px;
+    margin-top: 35px;
+    opacity: 0.5;
+    z-index: 1;
+    position: absolute;
+    width:176px;
+    height: 301px;
+    filter: blur(25px);
+    border-radius: 29px;
 }
