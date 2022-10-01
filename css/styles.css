@@ -399,7 +399,7 @@ input::placeholder {
 
     padding: 12% 0 8% 5%;
 
-    margin: 0 auto 14% auto;
+    margin: 0 auto 8% auto;
     display: flex;
     right: 0;
     height: 800px;
@@ -503,7 +503,7 @@ input::placeholder {
 
 }
 
-.testimonial-orange-title{
+.testimonial-orange-title {
     letter-spacing: 3px;
     font-size: 18px;
     color: #E58411;
@@ -512,7 +512,7 @@ input::placeholder {
     text-align: center;
 }
 
-.testimonial-black-title{
+.testimonial-black-title {
     text-align: center;
     font-size: 42px;
     font-family: 'gilroy-bold';
@@ -523,6 +523,9 @@ input::placeholder {
     padding-bottom: 3%;
 }
 
+.testimonial-card {
+    padding: auto;
+}
 
 .back-img img {
     width: 370px;
@@ -536,7 +539,7 @@ input::placeholder {
 .back-img-blur img {
     left: 35px;
     top: 110px;
-    width: 300px;
+    width: 300px !important;
     height: 380px;
     border-radius: 18px;
     position: absolute;
@@ -545,26 +548,119 @@ input::placeholder {
     opacity: 0.5;
 }
 
-.owl-nav{
+.owl-nav {
     justify-content: space-between;
     display: block;
 }
 
 .owl-nav .owl-prev .fa,
-.owl-nav .owl-next .fa{
+.owl-nav .owl-next .fa {
     color: #0D1B39;
-   
+
 }
+
 .owl-nav .owl-prev {
-    position:absolute;
+    position: absolute;
     top: 30%;
-    left:-2%;
+    left: -2%;
     font-size: 50px;
 }
 
-.owl-nav .owl-next{
+.owl-nav .owl-next {
     right: -2%;
-    position:absolute;
+    position: absolute;
     top: 30%;
     font-size: 50px;
+}
+
+.testimonial-card {}
+
+.white-card {
+    position: absolute;
+    z-index: 9;
+    background-color: #fff;
+    width: 334px;
+    height: 206px;
+    border-radius: 18px;
+    top: 42%;
+    left: 5%;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.testi-name {
+    font-size: 18px;
+    font-family: 'gilroy-bold';
+    color: #1e1e1e;
+    margin-bottom: 6px;
+}
+
+.testi-job {
+    font-size: 12px;
+    font-family: 'gilroy-regular';
+    color: #1e1e1e;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.testi-text {
+    font-size: 14px;
+    font-family: 'gilroy-regular';
+    color: #1e1e1e;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.white-card .star-rating .fa{
+    font-size: 15px;
+    text-align: center;
+}
+
+.white-card .star-rating{
+    padding-left: 35%;
+}
+
+.white-circle-big {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    z-index: 10;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 37%;
+    left: 40%;
+    padding-top: 1.85%;
+}
+
+.circle-img {
+    box-shadow: 0px 5px 7px rgba(13, 27, 57, 0.35); 
+    margin: auto;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: url(../images/profi-1.jpg);
+    background-size: contain;
+    align-items: center;
+}
+
+.circle-img1 {
+    box-shadow: 0px 5px 7px rgba(13, 27, 57, 0.35); 
+    margin: auto;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: url(../images/profi-2.jpg);
+    background-size: contain;
+    align-items: center;
+}
+
+.circle-img2 {
+    box-shadow: 0px 5px 7px rgba(13, 27, 57, 0.35); 
+    margin: auto;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: url(../images/profi-3.jpg);
+    background-size: contain;
+    align-items: center;
 }

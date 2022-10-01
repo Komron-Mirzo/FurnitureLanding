@@ -1,8 +1,8 @@
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     loop: true,
-    margin: 20,
-    autoplay: true,
+    margin: 45,
+    autoplay: false,
     nav: true,
     navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
     responsive: {
