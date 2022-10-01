@@ -499,7 +499,6 @@ input::placeholder {
     padding-left: 5%;
     padding-right: 5%;
     width: 100%;
-    
     height: 700px;
 
 }
@@ -525,11 +524,6 @@ input::placeholder {
 }
 
 
-.testimonial-slider {
-  
-
-}
-
 .back-img img {
     width: 370px;
     height: 476px;
@@ -549,4 +543,28 @@ input::placeholder {
     z-index: 6;
     filter: blur(25px);
     opacity: 0.5;
+}
+
+.owl-nav{
+    justify-content: space-between;
+    display: block;
+}
+
+.owl-nav .owl-prev .fa,
+.owl-nav .owl-next .fa{
+    color: #0D1B39;
+   
+}
+.owl-nav .owl-prev {
+    position:absolute;
+    top: 30%;
+    left:-2%;
+    font-size: 50px;
+}
+
+.owl-nav .owl-next{
+    right: -2%;
+    position:absolute;
+    top: 30%;
+    font-size: 50px;
 }
