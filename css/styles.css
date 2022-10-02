@@ -611,12 +611,12 @@ input::placeholder {
     margin-bottom: 20px;
 }
 
-.white-card .star-rating .fa{
+.white-card .star-rating .fa {
     font-size: 15px;
     text-align: center;
 }
 
-.white-card .star-rating{
+.white-card .star-rating {
     padding-left: 35%;
 }
 
@@ -633,7 +633,7 @@ input::placeholder {
 }
 
 .circle-img {
-    box-shadow: 0px 5px 7px rgba(13, 27, 57, 0.35); 
+    box-shadow: 0px 5px 7px rgba(13, 27, 57, 0.35);
     margin: auto;
     border-radius: 50%;
     width: 50px;
@@ -644,7 +644,7 @@ input::placeholder {
 }
 
 .circle-img1 {
-    box-shadow: 0px 5px 7px rgba(13, 27, 57, 0.35); 
+    box-shadow: 0px 5px 7px rgba(13, 27, 57, 0.35);
     margin: auto;
     border-radius: 50%;
     width: 50px;
@@ -655,7 +655,7 @@ input::placeholder {
 }
 
 .circle-img2 {
-    box-shadow: 0px 5px 7px rgba(13, 27, 57, 0.35); 
+    box-shadow: 0px 5px 7px rgba(13, 27, 57, 0.35);
     margin: auto;
     border-radius: 50%;
     width: 50px;
@@ -663,4 +663,87 @@ input::placeholder {
     background: url(../images/profi-3.jpg);
     background-size: contain;
     align-items: center;
+}
+
+footer {
+    margin-top: 11%;
+    height: 462px;
+    background-color: #f7f7f7;
+    padding: 10% 10% 3% 13%;
+}
+
+.footer-bar {
+    display: flex;
+
+}
+
+.col1 {
+    width: 40%;
+}
+
+.col2 {
+    width: 20%;
+}
+
+.col1 h1 {
+    font-size: 28px;
+    font-family: 'gilroy-bold';
+    color: #1e1e1e;
+}
+
+.col1 p {
+    font-size: 15px;
+    font-family: 'gilroy-regular';
+    line-height: 160%;
+    color: #1e1e1e;
+    opacity: 0.8;
+}
+
+.footer-orange {
+    font-size: 17px;
+    color: #f6973f;
+    font-family: 'gilroy-medium';
+    line-height: 22px;
+}
+
+.col2 p {
+    font-size: 15px;
+    color: #1e1e1e;
+    line-height: 160%;
+    opacity: 0.8;
+    font-family: 'gilroy-regular';
+
+}
+
+
+.col2 span {
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+}
+
+.col2 span .fa {
+    color: #1E2833;
+    font-size: 20px;
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.copyright {
+    font-family: 'gilroy-medium';
+    justify-content: space-between;
+    display: flex;
+    margin-top: 8%;
+}
+
+.copy-text {
+   
+    color:#1E2833;
+    opacity: 0.5;
+}
+
+.terms-text {
+
+   color: #1E1E1E;
+   opacity: 0.8;
 }
