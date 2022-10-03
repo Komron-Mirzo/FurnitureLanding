@@ -4,21 +4,44 @@
 
 body {
 
-    margin: 40px 0 0 0;
+    margin: 0;
 
 
 }
 
 header {
-    margin-top: 40px;
+    top: 7%;
     background-color: transparent;
     display: flex;
     width: 90%;
-    margin: auto;
+    margin: auto 5%;
     height: 40px;
     justify-content: space-between;
     overflow: hidden;
     align-items: center;
+    position: absolute;
+}
+
+.toggle-button{
+    position: absolute;
+    top: 7%;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 40px;
+    align-items: right;
+    vertical-align: middle;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%; 
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 h3 {
@@ -37,24 +60,22 @@ header nav ul li {
     font-weight: 100;
 }
 
-.fa {
+.fa-shopping-cart {
     color: #fff;
-    display: block;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .home {
-    margin-top: -80px;
-    padding-top: 145px;
+    padding-top: 13.5%;
     overflow: hidden;
     display: block;
     width: 100%;
     height: 1084px;
     background: url(../images/Rectangle1441.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
-
+    margin-bottom: 7%;
 }
 
 .title {
@@ -117,11 +138,12 @@ input::placeholder {
 
 }
 
-.fa {
+.fa-search {
     display: table-cell;
     font-size: 22px;
     vertical-align: middle;
     text-align: center;
+    color: #fff;
 }
 
 
@@ -746,4 +768,13 @@ footer {
 
    color: #1E1E1E;
    opacity: 0.8;
+}
+
+
+@media (max-width: 480px){
+
+    .toggle-button{
+        display: flex;
+    }
+    
 }
