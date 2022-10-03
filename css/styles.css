@@ -9,7 +9,7 @@ body {
 
 }
 
-header {
+.navbar {
     top: 7%;
     background-color: transparent;
     display: flex;
@@ -44,13 +44,13 @@ header {
     border-radius: 10px;
 }
 
-h3 {
+.brand-title {
     font-size: 28px;
     color: #fff;
-    font-family: 'gilroy-medium';
+    font-family: 'gilroy-bold';
 }
 
-header nav ul li {
+.navbar .navbar-links ul li {
     display: inline-block;
     font-size: 18px;
     font-family: 'gilroy-light';
@@ -771,10 +771,48 @@ footer {
 }
 
 
-@media (max-width: 480px){
+@media (max-width: 768px){
 
     .toggle-button{
         display: flex;
+    }
+
+    .navbar .navbar-links ul {
+        /* display: none; */
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .navbar .navbar-links ul li:hover{
+        /* display: none; */
+        background-color: #8D8D8D;
+    }
+
+    .navbar .brand-title{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .navbar .navbar-links{
+        width: 100%;
+    }
+
+    .navbar{
+        position: relative;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 250px;
+        background-color: #1E1E1E;
+        margin: 0;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .fa-shopping-cart {
+       display: none;
     }
     
 }
