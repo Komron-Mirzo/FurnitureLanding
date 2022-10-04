@@ -63,7 +63,9 @@
             <div class="row">
                 <div class="column1">
                     <span class="why-title">
-                        Why <br> choosing us? </span>
+                        Why </span>
+                    <span class="why-title">
+                        choosing us? </span>
                 </div>
                 <div class="column">
                     <div class="column-title">
@@ -541,6 +543,47 @@
         new Glider(document.querySelector('.glider'), {
             slidesToScroll: 1,
             slidesToShow: 4,
+            responsive: [
+            {
+                    // If Screen Size More than 768px
+                    breakpoint: 0,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        duration: 0.5,
+                        arrows: {
+                            prev: ".glider-prev",
+                            next: ".glider-next"
+                        }
+                    }
+                },    
+            {
+                    // If Screen Size More than 768px
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        duration: 0.5,
+                        arrows: {
+                            prev: ".glider-prev",
+                            next: ".glider-next"
+                        }
+                    }
+                },
+                {
+                    // If Screen Size More than 1024px
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                        duration: 0.5,
+                        arrows: {
+                            prev: ".glider-prev",
+                            next: ".glider-next"
+                        }
+                    }
+                }
+            ],
             draggable: true,
             dots: '.dots',
             arrows: {
@@ -565,7 +608,8 @@
             <div class="footer-bar" id="footer-bar">
                 <div class="col1" id="logo-text">
                     <h1>Panto</h1>
-                    <p>The advantage of hiring a workspace with <br> us is that givees you comfortable service <br> and all-around
+                    <p>The advantage of hiring a workspace with <br> us is that givees you comfortable service <br> and
+                        all-around
                         facilities.
                     </p>
                 </div>
@@ -599,12 +643,12 @@
                 </div>
             </div>
             <div class="copyright" id="copyright">
-               <div class="copy-text">
-                Komron-Mirzo | &copy; Copyright 2022
-               </div>
-               <div class="terms-text">
-                Terms & Conditions &emsp; &emsp; &emsp; Policy Privacy
-               </div>
+                <div class="copy-text">
+                    Komron-Mirzo | &copy; Copyright 2022
+                </div>
+                <div class="terms-text">
+                    Terms & Conditions &emsp; &emsp; &emsp; Policy Privacy
+                </div>
             </div>
         </section>
     </footer>
