@@ -924,6 +924,139 @@ footer {
     .column-sub {
         font-size: 14px;
     }
+
     /* Why Us Section Ends */
+
+    /* Experiences Section Starts */
+
+    .experience {
+        padding-top: 75px;
+        display: block;
+        height: 700px;
+    }
+
+    .exp-img {
+        width: 100%;
+        display: flex;
+        margin-bottom: 70%;
+    }
+
+    .exp-img-left img {
+        width: 90%;
+        margin-left: 5%;
+        height: 225px;
+    }
+
+
+    .back-grey1 {
+        display: none;
+    }
+
+    .back-grey2 {
+        display: none;
+    }
+
+    .back-grey3 {
+        width: 80%;
+        height: 200px;
+        margin-left: 0px;
+        filter: blur(15px);
+        opacity: 0.3;
+        margin-left: 5%;
+    }
+
+    .exp-text {
+        width: 100%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+
+    .why-title {
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .column-sub2 {
+        font-size: 17px;
+        margin-right: 5%;
+    }
+
+    /* Experiences Section Ends */
+
+    /* Materials Section Starts */
+
+    .materials {
+        padding: 0% 0 8% 10%;
+        margin: 0 auto 8% auto;
+        display: flex;
+        flex-direction: column-reverse;
+        right: 0;
+        height: 750px;
+    }
+
+    .mat-text {
+        width: 100%;
+        margin-top: 80%;
+    }
+
+    .mat-img {
+        width: 100%;
+        position: inherit;
+        float: none;
+        align-items: center;
+    }
+
+    .mat-img-right img {
+        width: 90%;
+        margin-right: 5%;
+        height: 245px;
+        right: 0px;
+        margin-bottom: 25%;
+        
+
+    }
+
+    .mat-img-left {
+        display: none;
+    }
+
+    .mat-img-right-blur {
+        width: 80%;
+        margin-right: 5%;
+        height: 235px;
+        right: 0px;
+        margin-bottom: 50%;
+
+    }
+
+    .back-grey4 {
+        display: none;
+    }
+
+    /* Materials Section Ends */
+    
+    
+    /* Testimonial Section Starts */
+    
+    .testimonial-black-title {
+        font-size: 33px;
+    }
+
+    .owl-nav .owl-next {
+        right: -3%;
+    }
+    
+    .white-card {
+        width: 90%;
+    }
+
+    .testi-text {
+        margin-bottom: 15px;
+    }
+    
+    .white-card .star-rating {
+        padding-left: 0%;
+    }
+    /* Testimonial Section Ends */
 
 }
