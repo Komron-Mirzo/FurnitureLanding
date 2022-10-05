@@ -593,8 +593,6 @@ input::placeholder {
     font-size: 50px;
 }
 
-.testimonial-card {}
-
 .white-card {
     position: absolute;
     z-index: 9;
@@ -966,7 +964,7 @@ footer {
     }
 
     .exp-text {
-        width: 100%;
+        width: 90%;
         margin-left: 10%;
         margin-bottom: 10%;
     }
@@ -1057,6 +1055,33 @@ footer {
     .white-card .star-rating {
         padding-left: 0%;
     }
+
+
     /* Testimonial Section Ends */
+
+
+    /* Footer Section Starts */
+
+    footer {
+        height: 300px;
+        padding: 10% 0% 0% 13%;
+    }
+    
+    .footer-bar {
+        display: flex;
+    }
+    
+    .col1 {
+        width: 100%;
+    }
+    
+    .col2 {
+        display: none;
+    }
+    
+    .terms-text {
+        display: none;
+    }
+    
 
 }
